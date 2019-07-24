@@ -4,17 +4,17 @@
 from instabot_py import InstaBot
 
 bot = InstaBot(
-    login="username",  # Enter username (lowercase). Do not enter email!
-    password="password",
+    login="dday.87",  # Enter username (lowercase). Do not enter email!
+    password="$_#bAnAnACremePie2020$_#",
     like_per_day=1000,
-    comments_per_day=0,
-    tag_list=["follow4follow", "f4f", "cute", "l:212999109"],
+    comments_per_day=1000,
+    tag_list=["repost","follow4follow", "f4f", "cute", "l:212999109",""],
     tag_blacklist=["rain", "thunderstorm"],
     user_blacklist={},
     max_like_for_one_tag=50,
-    follow_per_day=300,
+    follow_per_day=1000,
     follow_time=1 * 60 * 60,
-    unfollow_per_day=300,
+    unfollow_per_day=700,
     unlike_per_day=0,
     unfollow_recent_feed=True,
     # If True, the bot will also unfollow people who dont follow you using the recent feed. Default: True
@@ -121,10 +121,10 @@ bot = InstaBot(
     ],
     unfollow_whitelist=["example_user_1", "example_user_2"],
     # Enable the following to schedule the bot. Uses 24H
-    # end_at_h = 23, # Hour you want the bot to stop
-    # end_at_m = 30, # Minute you want the bot stop, in this example 23:30
-    # start_at_h = 9, # Hour you want the bot to start
-    # start_at_m = 10, # Minute you want the bot to start, in this example 9:10 (am).
+     end_at_h = 23, # Hour you want the bot to stop
+     end_at_m = 30, # Minute you want the bot stop, in this example 23:30
+     start_at_h = 11, # Hour you want the bot to start
+     start_at_m = 53, # Minute you want the bot to start, in this example 9:10 (am).
 )
 
 bot.mainloop()
