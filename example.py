@@ -4,11 +4,11 @@
 from instabot_py import InstaBot
 
 bot = InstaBot(
-    login=",  # Enter username (lowercase). Do not enter email!
-    password="$",
+    login="dday87@uvic.ca",  # Enter username (lowercase). Do not enter email!
+    password="$_#bAnAnACremePie2020$_#",
     like_per_day=1000,
     comments_per_day=1000,
-    tag_list=["repost","follow4follow", "f4f", "cute", "l:212999109",""],
+    tag_list=["repost","follow4follow", "f4f", "cute", "l:212999109","blonde","model","chat","fun","entertainment","hot"],
     tag_blacklist=["rain", "thunderstorm"],
     user_blacklist={},
     max_like_for_one_tag=50,
@@ -60,7 +60,7 @@ bot = InstaBot(
             "excellent",
             "amazing",
         ],
-        [".", "🙌", "... 👏", "!", "! 😍", "😎"],
+        [".", "🙌", "... 👏", "!", "! 😍", "😎"],["visit https://alexanikolayevna.co","check us out https://alexanikolayevna.co","support us at https://alexanikolayevna.co"],
     ],
     # Use unwanted_username_list to block usernames containing a string
     # Will do partial matches; i.e. 'mozart' will block 'legend_mozart'
@@ -81,9 +81,7 @@ bot = InstaBot(
         "indo",
         "travel",
         "art",
-        "shop",
         "store",
-        "sex",
         "toko",
         "jual",
         "online",
