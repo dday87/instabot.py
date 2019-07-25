@@ -4,8 +4,8 @@
 from instabot_py import InstaBot
 
 bot = InstaBot(
-    login="dday.87",  # Enter username (lowercase). Do not enter email!
-    password="$_#bAnAnACremePie2020$_#",
+    login=",  # Enter username (lowercase). Do not enter email!
+    password="$",
     like_per_day=1000,
     comments_per_day=1000,
     tag_list=["repost","follow4follow", "f4f", "cute", "l:212999109",""],
